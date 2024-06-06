@@ -53,7 +53,7 @@ export default function AuthInputs() {
 
   return (
     <div id="auth-inputs">
-      <ControlDiv className="controls">
+      <ControlDiv>
         <p>
           <Label $invalid={emailNotValid}>Email</Label>
           <Input
